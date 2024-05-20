@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par Eclipse Implementation of JAXB, v3.0.2 
+Voir https://eclipse-ee4j.github.io/jaxb-ri 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2024.05.20 à 02:21:30 AM CEST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://univ.fr/cv24">
+    <schemaBindings map="false">
+      <package name="fr.univrouen.cv24.model"/>
+    </schemaBindings>
+    <bindings scd="tns:identite">
+      <class ref="fr.univrouen.cv24.model.Identite"/>
+    </bindings>
+    <bindings scd="tns:objectif">
+      <class ref="fr.univrouen.cv24.model.Objectif"/>
+    </bindings>
+    <bindings scd="tns:prof">
+      <class ref="fr.univrouen.cv24.model.Prof"/>
+    </bindings>
+    <bindings scd="~tns:detailType">
+      <class ref="fr.univrouen.cv24.model.DetailType"/>
+    </bindings>
+    <bindings scd="tns:competences">
+      <class ref="fr.univrouen.cv24.model.Competences"/>
+    </bindings>
+    <bindings scd="~tns:diplomeType">
+      <class ref="fr.univrouen.cv24.model.DiplomeType"/>
+    </bindings>
+    <bindings scd="~tns:certifType">
+      <class ref="fr.univrouen.cv24.model.CertifType"/>
+    </bindings>
+    <bindings scd="tns:divers">
+      <class ref="fr.univrouen.cv24.model.Divers"/>
+    </bindings>
+    <bindings scd="~tns:lvType">
+      <class ref="fr.univrouen.cv24.model.LvType"/>
+    </bindings>
+    <bindings scd="~tns:autreType">
+      <class ref="fr.univrouen.cv24.model.AutreType"/>
+    </bindings>
+    <bindings scd="tns:cv24">
+      <class ref="fr.univrouen.cv24.model.Cv24"/>
+    </bindings>
+    <bindings scd="~tns:GenreType">
+      <typesafeEnumClass ref="fr.univrouen.cv24.model.GenreType"/>
+    </bindings>
+    <bindings scd="~tns:StatutType">
+      <typesafeEnumClass ref="fr.univrouen.cv24.model.StatutType"/>
+    </bindings>
+    <bindings scd="~tns:CertType">
+      <typesafeEnumClass ref="fr.univrouen.cv24.model.CertType"/>
+    </bindings>
+    <bindings scd="~tns:NivsType">
+      <typesafeEnumClass ref="fr.univrouen.cv24.model.NivsType"/>
+    </bindings>
+  </bindings>
+</bindings>
+
